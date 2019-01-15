@@ -1,0 +1,72 @@
+<Escala nome="Escala de Organistas - RJM">
+  <Mes>
+    <nomeMes>FEB / 19</nomeMes>
+    <Dias>
+      <dia>
+        <string>3</string>
+        <string>10</string>
+        <string>17</string>
+        <string>24</string>
+      </dia>
+      <escalada>
+        <string>Nayra</string>
+        <string>Rute</string>
+        <string>Ana</string>
+        <string>Jessica</string>
+      </escalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>MAR / 19</nomeMes>
+    <Dias>
+      <dia>
+        <string>3</string>
+        <string>10</string>
+        <string>17</string>
+        <string>24</string>
+        <string>31</string>
+      </dia>
+      <escalada>
+        <string>Nayra</string>
+        <string>Rute</string>
+        <string>Ana</string>
+        <string>Jessica</string>
+        <string>Nayra</string>
+      </escalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>APR / 19</nomeMes>
+    <Dias>
+      <dia>
+        <string>7</string>
+        <string>14</string>
+        <string>21</string>
+        <string>28</string>
+      </dia>
+      <escalada>
+        <string>Rute</string>
+        <string>Ana</string>
+        <string>Jessica</string>
+        <string>Nayra</string>
+      </escalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>MAY / 19</nomeMes>
+    <Dias>
+      <dia>
+        <string>5</string>
+        <string>12</string>
+        <string>19</string>
+        <string>26</string>
+      </dia>
+      <escalada>
+        <string>Rute</string>
+        <string>Ana</string>
+        <string>Jessica</string>
+        <string>Nayra</string>
+      </escalada>
+    </Dias>
+  </Mes>
+</Escala>

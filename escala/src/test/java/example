@@ -1,0 +1,13 @@
+<escala>
+    <mes name="Jan">
+        <dia name="10">
+            <nome>Rute</nome>
+        </dia>
+        <dia name="20">
+            <nome>Rute</nome>
+        </dia>
+        <dia name="30">
+            <nome>Rute</nome>
+        </dia>
+    </mes>
+</escala>
