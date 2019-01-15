@@ -5,6 +5,10 @@ public class Pessoas {
     private int sequencia = 0;
     private  List<String> names;
 
+    public Pessoas(List<String> names) {
+        this.names = names;
+    }
+
     public int getSequencia() {
         return sequencia;
     }
@@ -21,6 +25,4 @@ public class Pessoas {
         this.names = names;
     }
 
-//    String[] names = {"Nayra", "Rute", "Ana", "Jessica"};
-//    List<String> pessoas = new ArrayList<>(Arrays.asList(names));
 }

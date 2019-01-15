@@ -35,6 +35,12 @@
             <artifactId>fop</artifactId>
             <version>${fop.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+
     </dependencies>
 
 

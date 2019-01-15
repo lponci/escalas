@@ -14,18 +14,6 @@ public class Mes {
     @XStreamImplicit
     private List<Dias> dias = new ArrayList<>();
 
-//    public List<Dias> getDias() {
-//        return dias;
-//    }
-//
-//    public void setDias(List<Dias> dias) {
-//        this.dias = dias;
-//    }
-//
-//    public String getNomeMes() {
-//        return nomeMes;
-//    }
-
     public void setNomeMes(String nomeMes) {
         this.nomeMes = nomeMes;
     }
