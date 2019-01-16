@@ -1,14 +1,12 @@
 import com.thoughtworks.xstream.XStream;
 import org.apache.fop.apps.FOPException;
+import org.apache.xmlgraphics.util.MimeConstants;
 import xml.Dias;
 import xml.Escala;
 import xml.Mes;
 
 import javax.xml.transform.TransformerException;
-import java.io.ByteArrayInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -47,8 +45,10 @@ public class Main {
         xstream.processAnnotations(Dias.class);
         String xml = xstream.toXML(escala);
         try {
-            PdfGeneration pdfGeneration = new PdfGeneration();
-            pdfGeneration.convertToPDF(stringToInputStream(xml));
+            FOPUtils fopUtils = new FOPUtils();
+            OutputStream pdfContent = new FileOutputStream(PdfGeneration.OUTPUT_DIR + "//output.pdf");
+            InputStream xsl = new FileInputStream(PdfGeneration.OUTPUT_DIR + "//output.pdf");
+            fopUtils.transform(stringToInputStream(xml), xsl, pdfContent, MimeConstants.MIME_PDF);
         } catch (IOException | TransformerException | FOPException e ) {
             e.printStackTrace();
         }

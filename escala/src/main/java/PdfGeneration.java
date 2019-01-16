@@ -1,6 +1,5 @@
 import org.apache.fop.apps.*;
-import org.apache.pdfbox.exceptions.COSVisitorException;
-import org.apache.pdfbox.util.PDFMergerUtility;
+import org.apache.pdfbox.multipdf.PDFMergerUtility;
 
 import javax.xml.transform.Result;
 import javax.xml.transform.Transformer;
@@ -31,8 +30,7 @@ public class PdfGeneration {
         FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
         // Setup output
 
-        OutputStream out;
-        out = new FileOutputStream(OUTPUT_DIR + "//output.pdf");
+        OutputStream out = new FileOutputStream(OUTPUT_DIR + "//output.pdf");
 
         try {
             // Construct fop with desired output format
@@ -56,15 +54,47 @@ public class PdfGeneration {
         }
     }
 
+    public ByteArrayOutputStream generate(InputStream xml, OutputStream pdfContent) {
+        try {
+            // setup xml input source
+            StreamSource xmlSource = new StreamSource(xml);
+
+            // setup xsl stylesheet source
+            File xslFile = new File(RESOURCES_DIR + "//template.xsl");
+            FileInputStream xslFileStream = new FileInputStream(xslFile);
+            StreamSource xslSource = new StreamSource(xslFileStream);
+
+            // get transformer
+            TransformerFactory tfactory = TransformerFactory.newInstance();
+            Transformer transformer = tfactory.newTransformer(xslSource);
+
+            // setup FOP
+            FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
+            FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
+            foUserAgent.setProducer(this.getClass().getName());
+            Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, pdfContent);
+
+            // perform transformation
+            Result res = new SAXResult(fop.getDefaultHandler());
+            transformer.transform(xmlSource, res);
+        } catch (FileNotFoundException e) { e.printStackTrace();
+        } catch (TransformerException e) {  e.printStackTrace();
+        } catch (FOPException e) { e.printStackTrace();
+        }
+        return new ByteArrayOutputStream();
+    }
+
+
     private void mergePDF(){
         PDFMergerUtility pdfMergerUtility = new PDFMergerUtility();
-        pdfMergerUtility.addSource(OUTPUT_DIR + "/output.pdf");
-        pdfMergerUtility.addSource(RESOURCES_DIR + "/template.pdf");
-        pdfMergerUtility.setDestinationFileName(OUTPUT_DIR + "Final.pdf");
         try {
+            pdfMergerUtility.addSource(OUTPUT_DIR+ "/output.pdf");
+            pdfMergerUtility.addSource(RESOURCES_DIR + "/template.pdf");
+            pdfMergerUtility.setDestinationFileName(OUTPUT_DIR + "Final.pdf");
             pdfMergerUtility.mergeDocuments();
-        } catch (IOException | COSVisitorException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
 }
