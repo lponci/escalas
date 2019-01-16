@@ -4,22 +4,16 @@ package xml;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 @XStreamAlias("Dias")
 public class Dias {
 
-    @XStreamAlias(value = "dia")
-    private List<String> dia = new ArrayList<>();
-    private List<String> escalada = new ArrayList<>();
+    private Map<String, String> diaToEscalada = new LinkedHashMap<>();
 
-    public void addDia(String dia){
-        this.dia.add(dia);
-    }
-
-    public void addEscalada(String escalada){
-        this.escalada.add(escalada);
+    public void joinDiaEscalada(String dia, String escalada){
+        this.diaToEscalada.put(dia, escalada);
     }
 
 }

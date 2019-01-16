@@ -1,0 +1,71 @@
+<Escala nome="Escala de Organistas - RJM">
+  <Mes>
+    <nomeMes>FEV / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="3" nome="Nayra"/>
+        <item dia="10" nome="Rute"/>
+        <item dia="17" nome="Ana"/>
+        <item dia="24" nome="Jessica"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>MAR / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="3" nome="Nayra"/>
+        <item dia="10" nome="Rute"/>
+        <item dia="17" nome="Ana"/>
+        <item dia="24" nome="Jessica"/>
+        <item dia="31" nome="Nayra"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>ABR / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="7" nome="Rute"/>
+        <item dia="14" nome="Ana"/>
+        <item dia="21" nome="Jessica"/>
+        <item dia="28" nome="Nayra"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>MAI / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="5" nome="Rute"/>
+        <item dia="12" nome="Ana"/>
+        <item dia="19" nome="Jessica"/>
+        <item dia="26" nome="Nayra"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>JUN / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="2" nome="Rute"/>
+        <item dia="9" nome="Ana"/>
+        <item dia="16" nome="Jessica"/>
+        <item dia="23" nome="Nayra"/>
+        <item dia="30" nome="Rute"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <Mes>
+    <nomeMes>JUL / 19</nomeMes>
+    <Dias>
+      <diaToEscalada class="linked-hash-map">
+        <item dia="7" nome="Ana"/>
+        <item dia="14" nome="Jessica"/>
+        <item dia="21" nome="Nayra"/>
+        <item dia="28" nome="Rute"/>
+      </diaToEscalada>
+    </Dias>
+  </Mes>
+  <telefones class="linked-hash-map"/>
+</Escala>
