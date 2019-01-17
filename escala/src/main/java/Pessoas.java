@@ -21,8 +21,4 @@ public class Pessoas {
         return names;
     }
 
-    public void setNames(List<String> names) {
-        this.names = names;
-    }
-
 }

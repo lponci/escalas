@@ -97,8 +97,4 @@ public class Main {
         } while (cal.get(Calendar.MONTH) == month);
     }
 
-    public static InputStream toInputStream(byte[] bytes){
-        return new ByteArrayInputStream(bytes);
-    }
-
 }
