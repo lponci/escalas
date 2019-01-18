@@ -10,7 +10,11 @@ import java.util.Map;
 @XStreamAlias("Dias")
 public class Dias {
 
-    private Map<String, String> diaToEscalada = new LinkedHashMap<>();
+    private Map<String, String> diaToEscalada;
+
+    public Dias() {
+        diaToEscalada = new LinkedHashMap<>();
+    }
 
     public void joinDiaEscalada(String dia, String escalada){
         this.diaToEscalada.put(dia, escalada);

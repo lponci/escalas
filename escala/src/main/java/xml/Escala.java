@@ -4,10 +4,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
 import com.thoughtworks.xstream.annotations.XStreamImplicit;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @XStreamAlias("Escala")
 public class Escala {
@@ -18,9 +15,10 @@ public class Escala {
     @XStreamImplicit(itemFieldName = "Mes")
     private List<Mes> mes = new ArrayList<>();
 
-    private Map<String, String> telefones = new LinkedHashMap<>();
+    private Telefones telefones;
 
-    public Escala() {
+    public Escala(Telefones telefones) {
+        this.telefones = telefones;
     }
 
     public void setNome(String nome) {

@@ -5,12 +5,10 @@ import org.apache.xmlgraphics.util.MimeConstants;
 import xml.Dias;
 import xml.Escala;
 import xml.Mes;
+import xml.Telefones;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Locale;
+import java.util.*;
 
 public class Main {
 
@@ -44,13 +42,21 @@ public class Main {
         int year = Calendar.getInstance().get(Calendar.YEAR);
         int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
 
-        String[] names = {"Nayra", "Rute", "Ana", "Jessica"};
+        String[] names = {"Nayra = 4188-7416", "Rute = 4146-3506", "Ana = 95051-1129", "Jessica = 96289-4626"};
+        Telefones telefones = new Telefones();
+        int seq = 0;
+        for (String name : names){
+            String nome = getField(name, "=", 0);
+            String numero = getField(name, "=", 1);
+            telefones.addTelefone(seq, nome, numero);
+            seq++;
+        }
         Pessoas pessoas = new Pessoas(Arrays.asList(names));
 
         int qntMes = 6;
 
         Calendar cal = new GregorianCalendar(year, month, 1);
-        Escala escala = new Escala();
+        Escala escala = new Escala(telefones);
         escala.setNome("Escala de Organistas - RJM");
         for (int i = month; i <= qntMes; i++) {
             Mes mes = new Mes();
@@ -71,8 +77,11 @@ public class Main {
         xstream.processAnnotations(Escala.class);
         xstream.processAnnotations(Mes.class);
         xstream.processAnnotations(Dias.class);
-        NamedMapConverter namedMapConverter = new NamedMapConverter(xstream.getMapper(),"item","dia",String.class,"nome",String.class,true,true, xstream.getConverterLookup());
-        xstream.registerConverter(namedMapConverter);
+        NamedMapConverter nMapConverter = new NamedMapConverter(xstream.getMapper(),"item","id",String.class,"nome",String.class, true,true, xstream.getConverterLookup());
+        xstream.registerConverter(nMapConverter);
+
+//        NamedMapConverter namedMapConverter = new NamedMapConverter(xstream.getMapper(),"item","id",String.class,"nomeAndTelefone",String.class,true,true, xstream.getConverterLookup());
+//        xstream.registerConverter(namedMapConverter);
 
         return xstream.toXML(escala);
     }
@@ -95,6 +104,11 @@ public class Main {
             // advance to the next day
             cal.add(Calendar.DAY_OF_YEAR, 1);
         } while (cal.get(Calendar.MONTH) == month);
+    }
+
+    public static String getField(String str, String regex, int field){
+        List<String> list = Arrays.asList(str.split(regex));
+        return list.get(field);
     }
 
 }

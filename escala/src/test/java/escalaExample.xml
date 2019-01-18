@@ -3,10 +3,10 @@
     <nomeMes>FEV / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="3" nome="Nayra"/>
-        <item dia="10" nome="Rute"/>
-        <item dia="17" nome="Ana"/>
-        <item dia="24" nome="Jessica"/>
+        <item id="3" nome="Nayra = 4188-7416"/>
+        <item id="10" nome="Rute = 4146-3506"/>
+        <item id="17" nome="Ana = 95051-1129"/>
+        <item id="24" nome="Jessica = 96289-4626"/>
       </diaToEscalada>
     </Dias>
   </Mes>
@@ -14,11 +14,11 @@
     <nomeMes>MAR / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="3" nome="Nayra"/>
-        <item dia="10" nome="Rute"/>
-        <item dia="17" nome="Ana"/>
-        <item dia="24" nome="Jessica"/>
-        <item dia="31" nome="Nayra"/>
+        <item id="3" nome="Nayra = 4188-7416"/>
+        <item id="10" nome="Rute = 4146-3506"/>
+        <item id="17" nome="Ana = 95051-1129"/>
+        <item id="24" nome="Jessica = 96289-4626"/>
+        <item id="31" nome="Nayra = 4188-7416"/>
       </diaToEscalada>
     </Dias>
   </Mes>
@@ -26,10 +26,10 @@
     <nomeMes>ABR / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="7" nome="Rute"/>
-        <item dia="14" nome="Ana"/>
-        <item dia="21" nome="Jessica"/>
-        <item dia="28" nome="Nayra"/>
+        <item id="7" nome="Rute = 4146-3506"/>
+        <item id="14" nome="Ana = 95051-1129"/>
+        <item id="21" nome="Jessica = 96289-4626"/>
+        <item id="28" nome="Nayra = 4188-7416"/>
       </diaToEscalada>
     </Dias>
   </Mes>
@@ -37,10 +37,10 @@
     <nomeMes>MAI / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="5" nome="Rute"/>
-        <item dia="12" nome="Ana"/>
-        <item dia="19" nome="Jessica"/>
-        <item dia="26" nome="Nayra"/>
+        <item id="5" nome="Rute = 4146-3506"/>
+        <item id="12" nome="Ana = 95051-1129"/>
+        <item id="19" nome="Jessica = 96289-4626"/>
+        <item id="26" nome="Nayra = 4188-7416"/>
       </diaToEscalada>
     </Dias>
   </Mes>
@@ -48,11 +48,11 @@
     <nomeMes>JUN / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="2" nome="Rute"/>
-        <item dia="9" nome="Ana"/>
-        <item dia="16" nome="Jessica"/>
-        <item dia="23" nome="Nayra"/>
-        <item dia="30" nome="Rute"/>
+        <item id="2" nome="Rute = 4146-3506"/>
+        <item id="9" nome="Ana = 95051-1129"/>
+        <item id="16" nome="Jessica = 96289-4626"/>
+        <item id="23" nome="Nayra = 4188-7416"/>
+        <item id="30" nome="Rute = 4146-3506"/>
       </diaToEscalada>
     </Dias>
   </Mes>
@@ -60,12 +60,19 @@
     <nomeMes>JUL / 19</nomeMes>
     <Dias>
       <diaToEscalada class="linked-hash-map">
-        <item dia="7" nome="Ana"/>
-        <item dia="14" nome="Jessica"/>
-        <item dia="21" nome="Nayra"/>
-        <item dia="28" nome="Rute"/>
+        <item id="7" nome="Ana = 95051-1129"/>
+        <item id="14" nome="Jessica = 96289-4626"/>
+        <item id="21" nome="Nayra = 4188-7416"/>
+        <item id="28" nome="Rute = 4146-3506"/>
       </diaToEscalada>
     </Dias>
   </Mes>
-  <telefones class="linked-hash-map"/>
+  <telefones>
+    <telefones class="linked-hash-map">
+      <item id="0" nome="{Nayra = 4188-7416}"/>
+      <item id="1" nome="{Rute = 4146-3506}"/>
+      <item id="2" nome="{Ana = 95051-1129}"/>
+      <item id="3" nome="{Jessica = 96289-4626}"/>
+    </telefones>
+  </telefones>
 </Escala>

@@ -1,0 +1,23 @@
+*.orig
+*.BACKUP.*
+*.REMOTE.*
+*.LOCAL.*
+*.BASE.*
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+target
+build
+.factorypath
+.project
+.classpath
+MANIFEST.MF
+ejb-jar.xml
+
+# Idea IntelliJ
+.idea
+*.iml
+overlays/
+
+.gitignore~
+
