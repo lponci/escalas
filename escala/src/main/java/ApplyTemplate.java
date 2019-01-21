@@ -10,19 +10,15 @@ import java.io.*;
 
 public class ApplyTemplate {
 
-    public static void apply(ByteArrayOutputStream byteArrayOutputStream) throws IOException, DocumentException {
-        String tplFile = "src//main//resources//fundo.pdf";
-        InputStream srcFile = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
-        String destFile = "src//main//resources//output//newMergedDest.pdf";
-
+    public static void apply(ByteArrayOutputStream btOs, String fundo, String destPDF) throws IOException, DocumentException {
         Document destDoc = new Document(PageSize.A4.rotate(), 10f, 10f, 10f, 0f);
-        PdfWriter destWriter = PdfWriter.getInstance(destDoc, new FileOutputStream(destFile));
+        PdfWriter destWriter = PdfWriter.getInstance(destDoc, new FileOutputStream(destPDF));
 
         destDoc.open();
         PdfContentByte dcb = destWriter.getDirectContent();
         PdfContentByte ucb = destWriter.getDirectContentUnder();
-        PdfReader mainDocReader = new PdfReader(srcFile);
-        PdfReader singlePageBackgroundReader = new PdfReader(tplFile);
+        PdfReader mainDocReader = new PdfReader(new ByteArrayInputStream(btOs.toByteArray()));
+        PdfReader singlePageBackgroundReader = new PdfReader(fundo);
         PdfImportedPage backgroundPage = destWriter.getImportedPage(singlePageBackgroundReader, 1);
         for (int i = 1; i <= mainDocReader.getNumberOfPages(); i++) {
             destDoc.newPage();

@@ -31,64 +31,80 @@
                                         <xsl:call-template name="tabela">
                                             <xsl:with-param name="contexto" select="."/>
                                         </xsl:call-template>
-                                        <fo:block space-before="1mm"/>
+                                        <fo:block space-before="2mm" />
                                     </fo:table-cell>
                                     <fo:table-cell>
-                                        <fo:block space-before="1mm"/>
+                                        <fo:block space-before="1mm" />
                                     </fo:table-cell>
                                     <fo:table-cell>
                                         <xsl:call-template name="tabela">
                                             <xsl:with-param name="contexto" select="following-sibling::*[1]"/>
                                         </xsl:call-template>
-                                        <fo:block space-before="2mm"/>
+                                        <fo:block space-before="2mm" />
                                     </fo:table-cell>
                                 </fo:table-row>
                             </xsl:for-each>
                         </fo:table-body>
                     </fo:table>
-
+                    <fo:block space-before="10mm" />
                     <xsl:apply-templates select="telefones" />
-
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>
     </xsl:template>
 
     <xsl:template match="telefones">
-        <fo:block-container height="8mm" width="32%">
-            <fo:block border-width="0.1mm" border-style="solid">
-                <fo:inline padding-left="36mm" font-size="9pt" font-weight="bold">
-                    Telefones
-                </fo:inline>
-            </fo:block>
-        </fo:block-container>
+        <fo:block>
+            <fo:inline padding-left="36mm" font-size="9pt" font-weight="bold">
+                Telefones
+            </fo:inline>
+        </fo:block>
         <fo:table table-layout="fixed" width="35%" font-size="8pt" text-align="center"
-                  display-align="center" border-width="0.1mm" border-style="solid">
+                  display-align="center" border-width="0.2mm" border-style="solid">
             <fo:table-column column-width="52%"/>
             <fo:table-column column-width="52%"/>
             <fo:table-body>
-
-                    <fo:table-row>
-                        <fo:table-cell>
-                            <xsl:for-each select="telefones/item[@id mod 2 = 0]">
+                <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block space-after="1mm" />
+                        <xsl:for-each select="telefones/item[@id mod 2 = 0]">
                             <fo:block>
-                                <xsl:value-of select="@nome" />
-                                <xsl:value-of select="position()" />
+                                <fo:inline>
+                                    <xsl:value-of select="substring-before(substring-after(@nome, '{'), ' =')"/>
+                                    <xsl:text>:</xsl:text>
+                                    <xsl:value-of select="substring-before(substring-after(@nome, '='), '}')"/>
+                                </fo:inline>
                             </fo:block>
-                            </xsl:for-each>
-                        </fo:table-cell>
-                        <fo:table-cell>
-                            <xsl:for-each select="telefones/item[@id mod 2 = 1]">
+                            <fo:block space-before="1mm" />
+                        </xsl:for-each>
+                    </fo:table-cell>
+                    <fo:table-cell>
+                        <fo:block space-after="1mm" />
+                        <xsl:for-each select="telefones/item[@id mod 2 = 1]">
                             <fo:block>
-                                <xsl:value-of select="@nome" />
-                                <xsl:value-of select="position()" />
+                                <fo:inline>
+                                    <xsl:value-of select="substring-before(substring-after(@nome, '{'), ' =')"/>
+                                    <xsl:text>:</xsl:text>
+                                    <xsl:value-of select="substring-before(substring-after(@nome, '='), '}')"/>
+                                </fo:inline>
                             </fo:block>
-                            </xsl:for-each>
-                        </fo:table-cell>
-                    </fo:table-row>
-
+                            <fo:block space-before="1mm" />
+                        </xsl:for-each>
+                    </fo:table-cell>
+                </fo:table-row>
             </fo:table-body>
         </fo:table>
+        <fo:block space-before="2mm" />
+        <fo:block>
+            <fo:inline padding-left="25mm" font-size="9pt" font-weight="bold">
+                Encarregado de Orquestra
+            </fo:inline>
+        </fo:block>
+        <fo:block>
+            <fo:inline padding-left="25mm" font-size="8pt">
+                Osmar: 4169-7212 / 97547-2106
+            </fo:inline>
+        </fo:block>
     </xsl:template>
 
     <xsl:template name="getNode">

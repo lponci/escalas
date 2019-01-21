@@ -1,61 +1,45 @@
 import com.itextpdf.text.DocumentException;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.extended.NamedMapConverter;
-import org.apache.xmlgraphics.util.MimeConstants;
 import xml.Dias;
 import xml.Escala;
 import xml.Mes;
 import xml.Telefones;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
 
-    private static final String RESOURCES_DIR = "src//main//resources//";
+    private static final String RESOURCES_DIR = "rjm//src//main//resources//";
+    private static final String OUTPUT_DIR = "rjm//src//main//resources//output//";
 
     public static void main(String[] args){
-        Escala escala = getEscala();
-        String xml = generateXml(escala);
-        ByteArrayOutputStream btOs = generatePDF(xml);
+
+        String[] names = {"Nayra = 4188-7416", "Rute = 4146-3506", "Ana = 95051-1129", "Jessica = 96289-4626"};
+        int qntMes = 6;
+
+        String xml = generateXml(getEscala(names, qntMes));
+        String xsl = RESOURCES_DIR+ "template.xsl";
+        ByteArrayOutputStream btOs = PdfGeneration.generatePDF(xml, xsl);
+
+        String fundo = RESOURCES_DIR+ "fundo.pdf";
+        String destPDF = OUTPUT_DIR + "newMergedDest.pdf";
         try {
-            ApplyTemplate.apply(btOs);
+            ApplyTemplate.apply(btOs, fundo, destPDF);
         } catch (IOException | DocumentException e) {
             e.printStackTrace();
         }
     }
 
-    public static ByteArrayOutputStream generatePDF(String xml) {
-        ByteArrayOutputStream btOs = new ByteArrayOutputStream();
-        try {
-            PdfGeneration pdfGeneration = new PdfGeneration();
-            InputStream xslInput = new FileInputStream(RESOURCES_DIR+ "//template.xsl");
-            InputStream xmlInput = new ByteArrayInputStream(xml.getBytes());
-            btOs.writeTo(pdfGeneration.generate(xmlInput, xslInput, btOs, MimeConstants.MIME_PDF));
-        } catch (IOException e ) {
-            e.printStackTrace();
-        }
-        return btOs;
-    }
-
-    private static Escala getEscala() {
+    private static Escala getEscala(String[] names, int qntMes) {
         int year = Calendar.getInstance().get(Calendar.YEAR);
         int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
-
-        String[] names = {"Nayra = 4188-7416", "Rute = 4146-3506", "Ana = 95051-1129", "Jessica = 96289-4626"};
-        Telefones telefones = new Telefones();
-        int seq = 0;
-        for (String name : names){
-            String nome = getField(name, "=", 0);
-            String numero = getField(name, "=", 1);
-            telefones.addTelefone(seq, nome, numero);
-            seq++;
-        }
-        Pessoas pessoas = new Pessoas(Arrays.asList(names));
-
-        int qntMes = 6;
-
         Calendar cal = new GregorianCalendar(year, month, 1);
+
+        Pessoas pessoas = new Pessoas(Arrays.asList(names));
+        Telefones telefones = getTelefones(names);
         Escala escala = new Escala(telefones);
         escala.setNome("Escala de Organistas - RJM");
         for (int i = month; i <= qntMes; i++) {
@@ -70,6 +54,18 @@ public class Main {
             month++;
         }
         return escala;
+    }
+
+    private static Telefones getTelefones(String[] names) {
+        Telefones telefones = new Telefones();
+        int seq = 0;
+        for (String name : names){
+            String nome = getField(name, "=", 0);
+            String numero = getField(name, "=", 1);
+            telefones.addTelefone(seq, nome, numero);
+            seq++;
+        }
+        return telefones;
     }
 
     private static String generateXml(Escala escala) {

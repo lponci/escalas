@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="escala" />
+        <module name="porteiros" />
+        <module name="rjm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="escala" target="7" />
+      <module name="porteiros" target="7" />
+      <module name="rjm" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
