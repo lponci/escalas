@@ -3,35 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a02a7725-0b27-4ce1-b818-1c34ea9fb7ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/porteiros/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rjm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rjm/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/EscalaRJM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rjm/src/main/resources/output/newMergedDest.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/resources/output/newMergedDest.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ApplyTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplyTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PdfGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PdfGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/Pessoas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml/Dias.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/xml/Dias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml/Escala.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/xml/Escala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml/Mes.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/xml/Mes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml/Telefones.java" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/java/xml/Telefones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fundo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/resources/fundo.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/output/newMergedDest.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/template.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/main/resources/template.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/escalaExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rjm/src/test/java/escalaExample.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ApplyTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApplyTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/escala.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PdfGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PdfGeneration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pessoas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundo.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/output/newMergedDest.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/template.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xml/Dias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xml/Escala.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xml/Mes.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/porteiros/target/" />
     <ignored path="$PROJECT_DIR$/rjm/target/" />
+    <ignored path="$PROJECT_DIR$/organistas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +38,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rjm/src/main/java/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rjm/src/main/java/EscalaRJM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="-1075">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Mes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -73,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ApplyTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+            <state relative-caret-position="159">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,61 +63,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PdfGeneration.java">
+        <entry file="file://$PROJECT_DIR$/organistas/src/main/resources/template.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/porteiros/pom.xml">
+        <entry file="file://$PROJECT_DIR$/organistas/src/test/java/escalaExample.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rjm/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/organistas/src/main/java/EscalaOrganista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rjm/src/test/java/escalaExample.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rjm/src/main/java/Pessoas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="874">
+              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Escala.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="464" column="23" selection-start-line="464" selection-start-column="23" selection-end-line="464" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Calendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="1070" column="56" selection-start-line="1070" selection-start-column="56" selection-end-line="1070" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/GregorianCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="634" column="5" lean-forward="true" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
+              <folding>
+                <element signature="e#25653#25654#0" expanded="true" />
+                <element signature="e#25710#25711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,8 +164,13 @@
       <find>center</find>
       <find>following</find>
       <find>for-each</find>
-      <find>su</find>
       <find>inlin</find>
+      <find>telefones</find>
+      <find>su</find>
+      <find>varia</find>
+      <find>outputstream</find>
+      <find>substring</find>
+      <find>position()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,7 +181,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/xml/Mes.java" />
         <option value="$PROJECT_DIR$/src/main/java/FOPUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/IText.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pessoas.java" />
         <option value="$PROJECT_DIR$/src/main/java/xml/Dias.java" />
@@ -188,25 +189,26 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/escalaExample.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/template.xsl" />
+        <option value="$PROJECT_DIR$/organistas/src/main/java/xml/Escala.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApplyTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PdfGeneration.java" />
+        <option value="$PROJECT_DIR$/rjm/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rjm/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/organistas/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/rjm/src/main/java/EscalaRJM.java" />
+        <option value="$PROJECT_DIR$/organistas/src/main/java/Pessoas.java" />
+        <option value="$PROJECT_DIR$/organistas/pom.xml" />
+        <option value="$PROJECT_DIR$/organistas/src/main/java/Nomes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PdfGeneration.java" />
+        <option value="$PROJECT_DIR$/organistas/src/main/resources/template.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
+        <option value="$PROJECT_DIR$/organistas/src/main/java/EscalaOrganista.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="escala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="escala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -231,6 +233,73 @@
             <path>
               <item name="escala" type="b2602c69:ProjectViewProjectNode" />
               <item name="escala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="organistas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="escala" type="b2602c69:ProjectViewProjectNode" />
@@ -294,6 +363,14 @@
             <path>
               <item name="escala" type="b2602c69:ProjectViewProjectNode" />
               <item name="escala" type="462c0819:PsiDirectoryNode" />
+              <item name="rjm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,12 +388,6 @@
             </path>
             <path>
               <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="escala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -329,63 +400,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-              <item name="policy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="escala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="ws" type="462c0819:PsiDirectoryNode" />
-              <item name="policy" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="escala" type="b2602c69:ProjectViewProjectNode" />
@@ -410,29 +424,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548089867586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551456385586" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xml" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/rjm/src/main/java" />
       <recent name="$PROJECT_DIR$/rjm/src/main/resources" />
       <recent name="$PROJECT_DIR$/rjm/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="xml" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,10 +462,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="ApplyTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplyTemplate" />
-      <module name="escala" />
+  <component name="RunManager" selected="Application.EscalaOrganista">
+    <configuration name="EscalaOrganista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EscalaOrganista" />
+      <module name="organistas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscalaRJM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EscalaRJM" />
+      <module name="rjm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -462,26 +484,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="escala" />
+      <module name="organistas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PdfGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PdfGeneration" />
-      <module name="escala" />
+    <configuration name="template.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/organistas/src/main/resources/template.xsl" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EscalaOrganista" />
+        <item itemvalue="XSLT.template.xsl" />
+        <item itemvalue="Application.EscalaRJM" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ApplyTemplate" />
-        <item itemvalue="Application.PdfGeneration" />
       </list>
     </recent_temporary>
   </component>
@@ -499,9 +534,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="-11" width="1602" height="912" extended-state="6" />
+    <frame x="1366" y="0" width="1600" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15958816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16731016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,13 +546,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1969112" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498713" weight="0.1969112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30759332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32818532" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" weight="0.32689834" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501287" side_tool="true" weight="0.1969112" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32947233" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -533,22 +569,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rjm/src/main/java/Main.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rjm/src/main/java/Main.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rjm/src/main/java/Main.java</url>
-          <line>85</line>
+          <url>file://$PROJECT_DIR$/rjm/src/main/java/EscalaRJM.java</url>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/organistas/src/main/java/EscalaOrganista.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/organistas/src/main/java/EscalaOrganista.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -560,81 +596,55 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>xstream.toXML(escala);</expression-string>
+        <expression-string>mes.nomeMes</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdfContent</expression-string>
+        <expression-string>Calendar.getInstance().get();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>generatePDF();</expression-string>
+        <expression-string>Calendar.getInstance().get(Calendar.MONTH);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdfGeneration.generate(stringToInputStream(xml), xsl, pdfContent, MimeConstants.MIME_PDF);</expression-string>
+        <expression-string>Locale ptBR = new Locale(&quot;pt&quot;,&quot;br&quot;);
+cal.getDisplayName(Calendar.MONTH, Calendar.SHORT, ptBR).toUpperCase() + &quot; / &quot; + (year % 2000)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>TransformerFactory.newInstance().newTransformer(new StreamSource(xsl)).transform(new StreamSource(xml), new StreamResult(outFo));</expression-string>
+        <expression-string>cal.getDisplayName(Calendar.MONTH, Calendar.SHORT, ptBR).toUpperCase() + &quot; / &quot; + (year % 2000)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fop</expression-string>
+        <expression-string>cal.get(Calendar.MONTH)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>out</expression-string>
+        <expression-string>cal.getDisplayName(Calendar.MONTH, Calendar.SHORT, ptBR)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>xmlAsStream</expression-string>
+        <expression-string>xml</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.mergePDF(xmlAsStream);</expression-string>
+        <expression-string>Locale ptBR = new Locale(&quot;pt&quot;,&quot;br&quot;);
+            cal.getDisplayName(Calendar.MONTH, Calendar.SHORT, ptBR).toUpperCase() + &quot; / &quot; + (year % 2000)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/escala.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1121" column="4" selection-start-line="1121" selection-start-column="4" selection-end-line="1121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="683" column="15" selection-start-line="683" selection-start-column="15" selection-end-line="683" selection-end-column="15" />
-          <folding>
-            <element signature="e#29988#29989#0" expanded="true" />
-            <element signature="e#30066#30067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/javax/xml/transform/stream/StreamSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/1.6.0/pdfbox-1.6.0.jar!/org/apache/pdfbox/util/PDFMergerUtility.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -801,30 +811,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Escala.java">
+    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/subject/WsdlBindingSubject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="247">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/src/main/resources/template.xsl">
+    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Mes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1443">
-          <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+        <state relative-caret-position="207">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/porteiros/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/src/test/java/escalaExample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/porteiros/pom.xml" />
     <entry file="file://$PROJECT_DIR$/rjm/src/main/java/Pessoas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -840,45 +841,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/subject/WsdlBindingSubject.class">
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/xml/Telefones.java" />
+    <entry file="file://$PROJECT_DIR$/organistas/rjm.iml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        <state relative-caret-position="161">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Mes.java">
+    <entry file="file://$PROJECT_DIR$/rjm/src/test/java/escalaExample.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="965" column="27" selection-start-line="965" selection-start-column="27" selection-end-line="965" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="552">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rjm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/Nomes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rjm/src/main/resources/template.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="152" column="41" lean-forward="true" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/xml/Mes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/xml/Dias.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/xml/Escala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PdfGeneration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="397">
+          <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,18 +933,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplyTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        <state relative-caret-position="159">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/resources/template.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="230">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/GregorianCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="634" column="5" lean-forward="true" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
+          <folding>
+            <element signature="e#25653#25654#0" expanded="true" />
+            <element signature="e#25710#25711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1070" column="56" selection-start-line="1070" selection-start-column="56" selection-end-line="1070" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/touch/jdk1.7.0_80/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="464" column="23" selection-start-line="464" selection-start-column="23" selection-end-line="464" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/EscalaRJM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rjm/src/main/java/xml/Escala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/test/java/escalaExample.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organistas/src/main/java/EscalaOrganista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

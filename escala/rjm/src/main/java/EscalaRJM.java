@@ -1,3 +1,11 @@
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.List;
+import java.util.Locale;
+
 import com.itextpdf.text.DocumentException;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.extended.NamedMapConverter;
@@ -6,11 +14,7 @@ import xml.Escala;
 import xml.Mes;
 import xml.Telefones;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.util.*;
-
-public class Main {
+public class EscalaRJM {
 
     private static final String RESOURCES_DIR = "rjm//src//main//resources//";
     private static final String OUTPUT_DIR = "rjm//src//main//resources//output//";
@@ -18,7 +22,7 @@ public class Main {
     public static void main(String[] args){
 
         String[] names = {"Nayra = 4188-7416", "Rute = 4146-3506", "Ana = 95051-1129", "Jessica = 96289-4626"};
-        int qntMes = 6;
+        int qntMes = 8;
 
         String xml = generateXml(getEscala(names, qntMes));
         String xsl = RESOURCES_DIR+ "template.xsl";

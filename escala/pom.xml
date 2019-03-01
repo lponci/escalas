@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>porteiros</module>
+        <module>organistas</module>
         <module>rjm</module>
     </modules>
 
@@ -55,8 +55,33 @@
             <artifactId>itextpdf</artifactId>
             <version>5.5.13</version>
         </dependency>
-
     </dependencies>
 
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-enforcer-plugin</artifactId>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>enforce-versions</id>-->
+                        <!--<goals>-->
+                            <!--<goal>enforce</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<rules>-->
+                                <!--<requireMavenVersion>-->
+                                    <!--<version>3.0.4</version>-->
+                                <!--</requireMavenVersion>-->
+                                <!--<requireJavaVersion>-->
+                                    <!--<version>1.7.0-75</version>-->
+                                <!--</requireJavaVersion>-->
+                            <!--</rules>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 
 </project>

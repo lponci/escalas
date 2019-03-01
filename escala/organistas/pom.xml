@@ -2,8 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <artifactId>rjm</artifactId>
+    <artifactId>organistas</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -17,7 +16,7 @@
         </plugins>
     </build>
 
-    <groupId>br.com.escala.rjm</groupId>
+    <groupId>br.com.escala.organistas</groupId>
     <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
@@ -29,6 +28,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
 
 </project>

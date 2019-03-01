@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/escala.iml" filepath="$PROJECT_DIR$/escala.iml" />
-      <module fileurl="file://$PROJECT_DIR$/porteiros/porteiros.iml" filepath="$PROJECT_DIR$/porteiros/porteiros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organistas/organistas.iml" filepath="$PROJECT_DIR$/organistas/organistas.iml" />
       <module fileurl="file://$PROJECT_DIR$/rjm/rjm.iml" filepath="$PROJECT_DIR$/rjm/rjm.iml" />
     </modules>
   </component>

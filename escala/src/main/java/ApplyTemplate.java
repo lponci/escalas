@@ -1,3 +1,8 @@
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.PageSize;
@@ -5,8 +10,6 @@ import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfImportedPage;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.PdfWriter;
-
-import java.io.*;
 
 public class ApplyTemplate {
 
